@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+		header{
+			background-color: black;
+			width: 100%;
+			position: fixed;
+			top: 0;
+			left: 0;
+			padding: 10px 0;
+			font-size: 20px;
+
+
+		}
+		footer{
+			color: white;
+			bottom: 0;
+			background-color: black;
+			width: 100%;
+			position: fixed;
+			left: 0;
+		}
+		p{
+			text-align: center;
+			font-size: 15px;
+		}
+		body{
+			margin: 0;
+			background-image: url('images/photo.jpg');
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-attachment: fixed;
+
+		}
+		nav a{
+			color: white;
+			padding: 7px 15px;
+			text-decoration: none;
+		}
+		div{
+			border:2px solid #000;
+			position:absolute;
+			width: 500px;
+			height: 250px;
+			top: 50%;
+			left: 50%;
+			transform:translate(-50%,-50%);
+			padding-top: 15px;
+			padding-left: 15px;
+		}
+		
+		</style>
+</head>
+<body>
+    <header>
+	    <nav>
+            <a href="#">Home</a>
+		    <a href="#">About us</a>
+		    <a href="#">Gallery</a>
+		    <a href="#">Contact us</a>
+	    </nav>
+    </header>
+
+    <div>
+    	<form class="container">
+			<div class="d1">
+			<label for="id">Id:</label>
+			<input type="text" id="id" name="id">&nbsp&nbsp&nbsp&nbsp
+			<label for="rno">Rollno:</label>
+			<input type="text" id="rno" name="rno">	
+			</div><br><br>
+			
+			<label for="fname">First name:</label>
+		    <input type="text" id="fname" name="fname"><br><br>
+		    <label for="lname">Last name:</label>
+		    <input type="text" id="lname" name="lname"><br><br>
+		    <label for="add">Address:</label>
+		    <input type="text" id="add" name="add">
+	</form>
+
+    </div>
+
+	
+
+    <footer>
+	    <p>Copyright &copy; 2020 Ajency.in</p>
+    </footer>
+</body>
+</html>
